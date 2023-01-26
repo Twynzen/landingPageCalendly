@@ -11,6 +11,8 @@ export class LandingPageComponent {
   url: string = 'https://calendly.com/darmcas';
 
   redirectSchedule(){
-    window.location.replace('https://calendly.com/darmcas');
+    // window.location.replace('https://calendly.com/darmcas');
+    window.location.replace('https://www.google.com/');
+
   }
 }
