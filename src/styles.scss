@@ -1,1 +1,34 @@
+// @font-face {
+//   font-family: 'Open Sans';
+//   src: url('https: //fonts.googleapis.com/css?family=Open+Sans:400,700') format('truetype');
+// }
+
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #0277BD;
+  /* tono de azul */
+  --secondary-color: linear-gradient(to bottom, #3f51b5, #9c27b0);
+  /* tono naranja */
+  --text-color: #333;
+  /* tono gris oscuro */
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+  /* el fondo será azul */
+}
+
+h1,
+h2,
+h3 {
+  color: var(--secondary-color);
+  font-family: 'Open Sans', sans-serif;
+  /* los títulos serán naranjas */
+}
+
+p {
+  color: var(--text-color);
+  font-family: 'Open Sans', sans-serif;
+  /* el texto será gris oscuro */
+}
